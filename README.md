@@ -1,4 +1,4 @@
-# Facultad-Cursos
+# De mi facultad y mis cursos, porque el conocimiento siempre se comparte.
 Códigos que me ayudan en el transcurso de mi carrera y cursos.
 
 El fin de este repositorio digital es exhibir los códigos con las fórmulas integradas en Análisis Matemático, Álgebra, Matemática Discreta, Algoritmos y Programación, etc. para
