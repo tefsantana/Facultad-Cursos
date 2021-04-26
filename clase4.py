@@ -52,20 +52,6 @@ def dia_semana(dia):
     elif dia == 7:
         return 'Domingo'
     
-print(dia_semana(8))
 
-# EJERCICIO DE PARCIAL --> 4.3 DE LA GUÍA
-
-# Ejercicio 4.3. Escribir una función que reciba por parámetro una dimensión n, e imprima la matriz identidad correspondiente a esa dimensión.
-
-# 1 0 0 0
-# 0 1 0 0
-# 0 0 1 0
-# 0 0 0 1
-
-def imprimir_matriz_identidad():
-    for i in range(n): # de 0 a n, o sea se ejecuta n veces
-        for j in range(n): # de 0 a n, o sea se ejecuta n veces
-            print (0)
 
 
