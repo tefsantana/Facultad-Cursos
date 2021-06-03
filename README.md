@@ -5,5 +5,5 @@ El fin de este repositorio digital es exhibir los códigos con las fórmulas int
 luego utilizarlos de manera recreativa con propósitos meramente educativos, brindando un nuevo modo de aprendizaje y, a su vez, una herramienta que permita una mayor fluidez
 del estudio.
 
-# Disclaimer y créditos
+# Disclaimer y créditos 🖋
 También exhibiré códigos de profesores que nos comparten para facilitarnos la cursada en virtualidad, siempre dando créditos a los autores dentro del código.
