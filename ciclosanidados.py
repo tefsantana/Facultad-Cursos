@@ -1,15 +1,14 @@
-"""Ejercicio ciclos anidados.
-Se tienen 10 cursos de 30 alumnos de los cuales se quiere saber lo siguiente:
-1. El promedio de cada curso
-2. El curso que mayor promedio tiene
-3. El nombre del alumno que mayor nota obtuvo (se supone único) y a que curso pertenece"""
+'''Se tienen 10 cursos de 30 alumnos de los cuales se quiere saber lo siguiente:
+a) El promedio de cada curso
+b) El curso que mayor promedio tiene
+c) El nombre del alumno que mayor nota obtuvo (se supone único) y a que curso pertenece'''
 
 #VARIABLES DE CURSO
-cursos : int = 3
+CANTIDAD_DE_CURSOS : int = 3            # constante
 mejor_curso : int = 0
 
 #VARIABLES DE ALUMNO
-alumnos : int = 3
+CANTIDAD_DE_ALUMNOS : int = 3         # constante
 nombre_alumno : str = ""
 mejor_alumno : str = ""
 
@@ -41,9 +40,6 @@ for curso in range(cursos):
 
 print(f"La mayor nota es {mayor_nota} y pertenece a {mejor_alumno} el cual pertenece al curso {curso_mejor_alumno}")
 print(f"El curso que mayor promedio tuvo es el: {mejor_curso}")
-
-       
-        
     
 
 
