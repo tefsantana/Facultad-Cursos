@@ -16,11 +16,11 @@ mejor_alumno : str = ""
 mayor_nota : int = 0
 mayor_promedio : float = 0
 
-for curso in range(cursos):
+for curso in range(CANTIDAD_DE_CURSOS):
     suma_notas : int = 0 
     promedio : float = 0
 
-    for alumno in range(alumnos):
+    for alumno in range(CANTIDAD_DE_ALUMNOS):
         print(f"Curso: {curso + 1} | Alumno: {alumno + 1}")
         nombre_alumno = input("Ingrese nombre del alumno: ")
         nota : int = int(input("Ingrese nota del alumno: "))
@@ -30,7 +30,7 @@ for curso in range(cursos):
             mejor_alumno = nombre_alumno
             curso_mejor_alumno : int = (curso + 1)
     
-    promedio = (suma_notas / alumnos)
+    promedio = (suma_notas / CANTIDAD_DE_ALUMNOS)
 
     print(f"El promedio del curso es: Curso {curso + 1} = {promedio}")
 
@@ -40,6 +40,5 @@ for curso in range(cursos):
 
 print(f"La mayor nota es {mayor_nota} y pertenece a {mejor_alumno} el cual pertenece al curso {curso_mejor_alumno}")
 print(f"El curso que mayor promedio tuvo es el: {mejor_curso}")
-    
 
 
